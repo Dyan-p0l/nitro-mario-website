@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=1280" />
+  <title>NITROGEN CYCLE WEBSITE</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- main game -->
+  <header class="header-container">
+    <div class="header-head">
+      <div class="head-title">
+        GROUP 1
+        </div>
+        <div class="head-about">
+          <button class="about-button" onclick="scrollToAboutPage()">About us</button>
+        </div>
+    </div>
+
+    <div class="container">
+      <button class="search-button" onclick="search()">
+        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="25px"><path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"/></svg>
+      </button>
+      <input type="text" id="searchInput" placeholder="Search...">
+      <ul id="resultsList"></ul>
+    </div>
+  </header>
+
+  <div id="aboutPage">
+    <div class="above-about">
+      <div class="members">
+        MEMBERS OF THE <strong class="sep">GROUP</strong>
+      </div>
+    </div>
+    <div class="about-page-cont">
+      <div class="rayco">
+        <div class="pic-cont">
+          <img class="img" src="/nitro-image/jp.jpg">
+        </div>
+        <div>
+          <div class="ngan">
+            JOHN PAUL F. RAYCO
+          </div>
+          <div class="typing-text" id="typingText1"></div>
+        </div>
+      </div>
+      <div class="donald">
+        <div class="pic-cont">
+          <img class="img" src="/nitro-image/donald.jpeg">
+        </div>
+        <div>
+          <div class="ngan">
+            DONALD DIVICAY JR.
+          </div>
+          <div class="typing-text" id="typingText2"></div>
+        </div>
+      </div>
+      <div class="vince">
+        <div class="pic-cont">
+          <img class="img" src="/nitro-image/vince.jpg">
+        </div>
+        <div>
+          <div class="ngan">
+            VINCE P. ROSALIJOS
+          </div>
+          <div class="typing-text" id="typingText3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <div class="web-title">
+    Nitrogen <strong class="cycle"> Cycle</strong>
+  </div>
+
+  <div class="skew-cont">
+    <div class="skewed" id="nitrogen">
+      <div class="text">
+        <button class="q-button">
+          <div class="question">WHAT IS <strong class="nitro">NITROGEN </strong> ?</div>
+        </button>
+        <p class="ans">Nitrogen is an incredibly adaptable element, existing in both organic and inorganic forms as well as many different oxidation states. The movement of nitrogen between the atmosphere, biosphere, and geosphere in different forms is called the nitrogen cycle, one of the major biogeochemical cycles.</p>
+      </div>
+      <div class="imageBox"> 
+        <img class="image-s" src="/nitro-image/nitrogen.jpg">
+      </div>  
+    </div>
+    <div class="skewed" id="nitrogen-cycle">
+      <div class="text">
+        <button class="q-button">
+          <div class="question">WHAT IS <strong class="nitro">NITROGEN CYCLE</strong> ?</div>
+        </button>
+        <p class="ans">Nitrogen Cycle is a biogeochemical process through which nitrogen is converted into many forms, consecutively passing from the atmosphere to the soil to organism and back into the atmosphere.</p>
+      </div>
+      <div class="imageBox"> 
+        <img class="image" src="/nitro-image/nitrogen-cycle.jpg">
+      </div>  
+    </div>
+    <div class="skewed" id="processes-of-nitrogen-cycle">
+      <div class="text">
+        <button class="q-button">
+          <div class="question">PROCESSES OF <strong class="nitro">NITROGEN CYCLE</strong></div>
+        </button>
+        <p class="ans">Process of the Nitrogen Cycle consists of the following steps – Nitrogen fixation, Assimilation, Ammonification, Nitrification and Dentrification.</p>
+      </div>
+      <div class="imageBox"> 
+        <img class="image" src="/nitro-image/nitrogen-cycle.jpg">
+      </div>  
+    </div>
+    <div class="skewed" id="nitrogen-fixation">
+      <div class="text">
+        <button class="q-button">
+          <div class="question">NITROGEN <strong class="nitro">FIXATION</strong></div>
+        </button>
+        <p class="ans">Atmospheric nitrogen (N2) constitutes about 78% of the Earth's atmosphere but is not directly usable by most organisms.
+          Nitrogen fixation is the conversion of atmospheric nitrogen into biologically available forms like ammonia (NH3) or nitrate (NO3-).</p>
+      </div>
+      <div class="imageBox"> 
+        <img class="image" src="/nitro-image/nitrogen-fixing-bacteria.jpg.webp">
+      </div>  
+    </div>
+    <div class="skewed" id="assimilation">
+      <div class="text">
+        <button class="q-button">
+          <div class="question">NITROGEN <strong class="nitro">ASSIMILATION</strong></div>
+        </button>
+        <p class="ans">Nitrogen assimilation refers to the process by which plants and other organisms take up and incorporate nitrogen into organic molecules, such as proteins, nucleic acids, and chlorophyll. Nitrogen is an essential nutrient for all living organisms, as it is a major component of amino acids, which are the building blocks of proteins.</p>
+      </div>
+      <div class="imageBox"> 
+        <img class="image" src="/nitro-image/assimilation.png">
+      </div>  
+    </div>
+    <div class="skewed" id="ammonification">
+      <div class="text">
+        <button class="q-button">
+          <div class="question">AMMONIFICATION<strong class="nitro"></strong></div>
+        </button>
+        <p class="ans">Nitrogen Cycle is a biogeochemical process through which nitrogen is converted into many forms, consecutively passing from the atmosphere to the soil to organism and back into the atmosphere.</p>
+      </div>
+      <div class="imageBox"> 
+        <img class="image" src="/nitro-image/ammonification.png">
+      </div>  
+    </div>
+    <div class="skewed" id="nitrification">
+      <div class="text">
+        <button class="q-button">
+          <div class="question">NITRIFICATION<strong class="nitro"></strong></div>
+        </button>
+        <p class="ans">In this process, the ammonia is converted into nitrate by the presence of bacteria in the soil. Nitrites are formed by the oxidation of ammonia with the help of Nitrosomo	nas bacteria species. Later, the produced nitrites are converted into nitrates by Nitrobacter. This conversion is very important as ammonia gas is toxic for plants</p>
+      </div>
+      <div class="imageBox"> 
+        <img class="image" src="/nitro-image/nitrification.jpg">
+      </div>  
+    </div>
+    <div class="skewed" id="denitrification">
+      <div class="text">
+        <button class="q-button">
+          <div class="question">DENITRIFICATION<strong class="nitro"></strong></div>
+        </button>
+        <p class="ans">Denitrification is the process of returning nitrogen compounds to the environment by transforming nitrate (NO3-) into gaseous nitrogen. The final stage of the nitrogen cycle happens in the absence of oxygen. Denitrification is carried out by the denitrifying bacterial species Clostridium and Pseudomonas, which consume nitrate to obtain oxygen and produce free nitrogen gas as a byproduct.</p>
+      </div>
+      <div class="imageBox"> 
+        <img class="image" src="/nitro-image/denitrification.png">
+      </div>  
+    </div>
+  </div>
+  
+  <div>
+
+  </div>
+
+  <div class="main-wrapper">
+    <canvas class="game-screen"></canvas>
+  </div> 
+  
+
+  <script src="js/script.js"></script>
+  <script src="js/View.js"></script>
+  <script src="js/GameUI.js"></script>
+
+  <script src="js/mainGame/GameSound.js"></script>
+  <script src="js/mainGame/Element.js"></script>
+  <script src="js/mainGame/PowerUp.js"></script>
+  <script src="js/mainGame/Enemy.js"></script>
+  <script src="js/mainGame/Bullet.js"></script>
+  <script src="js/mainGame/Mario.js"></script>
+  <script src="js/mainGame/Score.js"></script>
+  <script src="js/mainGame/MarioGame.js"></script>
+
+  <script src="js/levelEditor/Storage.js"></script>
+  <script src="js/levelEditor/Editor.js"></script>
+  <script src="js/levelEditor/CreatedLevels.js"></script>
+
+  <script src="js/MarioMaker.js"></script>
+
+  <script src="js/Preloader.js"></script>
+
+</body>
+
+</html>
